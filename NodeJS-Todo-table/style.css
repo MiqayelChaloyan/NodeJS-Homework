@@ -1,0 +1,83 @@
+.userFrame {
+	justify-content: space-between;
+	box-sizing: border-box;
+	display: flex;
+	padding: 0 25px;
+	width: 1040px;
+	box-shadow: 0px 1px 5px 3px #0000003d;
+	height: 55px;
+	border: 0.5px solid #ffffff;
+	align-items: center;
+	margin: 25px 0;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	cursor: pointer;
+	color: #040d15;
+	background: #dadde4fa;
+	transition: 0.4s;
+}
+
+.userFrame:hover {
+	transform: scale(1.05);
+	border: none;
+	background-color: steelblue;
+	color: white;
+	transition: 0.4s;
+}
+
+.btn {
+	cursor: pointer;
+	width: 120px;
+	height: 27px;
+	border-radius: 7px;
+	background-color: white;
+	background: aliceblue;
+	color: steelblue;
+	border: 1px solid steelblue;
+	transition: 0.4s;
+}
+
+.btn:hover {
+	background-color: steelblue;
+	color: white;
+	transition: 0.4s;
+	border: 0.5px solid royalblue;
+	box-shadow: 8px 7px 20px -7px #009578;
+}
+
+#frame {
+	width: 70%;
+	height: auto;
+	border: 2px solid #009578;
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 8px 18px 27px -3px;
+	background: #00957821;
+}
+
+#userInput {
+	width: 35%;
+	height: 32px;
+	font-size: 23px;
+	margin: 12px 0;
+	box-sizing: border-box;
+	padding: 4px 12px;
+	color: steelblue;
+	font-family: cursive;
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	background-color: #009578;
+	box-sizing: border-box;
+	width: 1040px;
+	padding: 20px 29px;
+	height: 38px;
+	border: 0.5px solid #81ffae;
+	align-items: center;
+	margin: 17px 0;
+	font-family: fantasy;
+	color: #ffecde;
+}
