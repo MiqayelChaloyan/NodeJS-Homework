@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <title>CRUD</title>
+   </head>
+   <body>
+      <input type="text" id="filter" placeholder="filter">
+      <button id="search">Search</button>
+      <div id="root">
+         <div class="border-box">
+            <h2>Cars</h2>
+            <button id="getAllCars">Get All Cars</button>
+            <div id="carsContainer"></div>
+         </div>
+         <div class="border-box">
+            <h2>Brands</h2>
+            <div id="addBrandDiv">
+               <button id="getAllBrands">Get All Brands</button>
+               <select name="brands" id="nameBrand">
+                  <option value="Alfa-Romeo">Alfa-Romeo</option>
+                  <option value="Bentley">Bentley</option>
+                  <option value="Ford">Ford</option>
+                  <option value="Audi">Audi</option>
+                  <option value="Lamborghini">Lamborghini</option>
+                  <option value="Mercedes-Benz">Mercedes-Benz</option>
+                  <option value="Dodge">Dodge</option>
+               </select>
+               <button id="addBrand">Add Brand</button>
+            </div>
+            <div id="brandsContainer"></div>
+         </div>
+      </div>
+      <br>
+      <div id="carsContainer"></div>
+      <div id="brandsContainer"></div>
+      <div id="editCarContainer"></div>
+      <div id="addCarDiv">
+         <button id="remove"><i class="fa fa-times" aria-hidden="true"></i></button>
+         <h3 id="titleEdit">Edit Section</h3>
+         <input type="text" placeholder="name" id="nameCar">
+         <select selected="test" id="colorCar">
+            <option value="red">red</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="black">black</option>
+            <option value="white">white</option>
+         </select>
+         <input type="text" placeholder="year" id="yearCar">
+         <input type="text" placeholder="brand ID" id="brandIdCar">
+         <button id="addCar"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
+      </div>
+      <script src="./js/index.js"></script>
+   </body>
+</html>
