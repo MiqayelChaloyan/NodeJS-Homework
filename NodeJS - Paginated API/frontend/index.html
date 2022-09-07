@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="./style.css">
+   <title>CRUD</title>
+</head>
+
+<body>
+
+   <div id="root">
+      <div class="border-box">
+         <div id="usersContainer"></div>
+      </div>
+
+
+      <br>
+
+      <div id="carsContainer"></div>
+
+      <div id="limit">
+         <div id="input">
+            <p>View item in a page -</p>
+            <select name="page" id="page">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5" selected>5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10</option>
+            </select>
+            <p>Page - </p>
+            <text id="pageNum"> 1 </text>
+           
+         </div>
+         <div>
+            <ul id="pagination">
+               <li id="previous"><a href="#" id="prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+               </li>
+               <li id="next"><a href="#" id="next1"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>

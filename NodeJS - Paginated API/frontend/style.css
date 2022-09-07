@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttonDel,
+.buttonEdit,
+.changeEdit {
+    width: 60px;
+    height: 24px;
+    background-color: aliceblue;
+}
+
+#usersContainer {}
+
+.rowWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    background-color: #0000001c;
+    border: 1px solid #00b3ff;
+    margin: 3px 0;
+}
+
+#carsContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#limit {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#input {
+    margin: 0 5px;
+}
+
+
+#pagination {
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+    margin-top: 13px;
+}
+
+#previous>a>i {
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#next>a>i {
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#page{
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+#root{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#pageNum{
+    font-size: 31px;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+#previous, #next{
+    margin: 5px;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    margin: 10px;
+}
